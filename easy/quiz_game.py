@@ -68,8 +68,11 @@ else:
     
 if correct>0 and incorrect>0:    
     print(f"You got {correct} questions correct and {incorrect} questions incorrect.")
+    print(f"You scored{score}")
 elif correct==0:
     print(f"You got {incorrect} questions incorrect.")
+    print(f"You scored{score}")
 else:
     print(f"You got {correct} questions correct.")
+    print(f"You scored{score}")
     

@@ -10,6 +10,7 @@ else:
     score=0
     correct=0
     incorrect=0
+    n=0
 
 # answer = input("Who is GOAT of football? ")
 # attempts = 0
